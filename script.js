@@ -6,8 +6,8 @@ function alterartexto() {
 // adicionar um novo paragrafo ao final do corpo 
 function adicionarparagrafo() {
     const novoparagrafo = documento.createElement("p");
-    novoparagrafo.innertext = "depois que voce clicou ,eu apareci!!";
-    documento.body.appendChild(novoparagrafo);
+    novoparagrafo.innerText = "depois que voce clicou ,eu apareci!!";
+    document.body.appendChild(novoparagrafo);
 }
 
 //remover o ultimo paracrafo, se houver mais de um
