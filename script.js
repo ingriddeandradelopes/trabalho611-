@@ -15,7 +15,9 @@ function removerparagrafo() {
    const paragrafos = document.querySelectorAll("p");
    if (paragrafos.length > 1) {
     paragrafos[paragrafos.length - 1].remove();
-   }
+    }else{
+        alert("nao ha mais paragrafos para remover");
+    }
 }
 
 //mudar a cor do texto do pagina  para uma cor aleatoria
